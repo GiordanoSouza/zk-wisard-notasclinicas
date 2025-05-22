@@ -1,0 +1,20 @@
+# --- Núcleo de manipulação de dados ---
+pandas>=2.2
+numpy>=1.26
+tqdm>=4.66
+
+# --- Para salvar/ler Parquet ---
+pyarrow>=15.0
+
+# --- Para testes unitários (test_encode_bits.py) ---
+pytest>=7.4
+
+# --- (Opcional) se quiser scripts mais limpos ---
+python-dotenv>=1.0
+
+# --- (ZKP não vai via pip) ---
+# Circom e SnarkJS são instalados via npm:
+# npm install -g circom snarkjs
+
+# (Se quiser rodar tudo em notebook)
+# jupyter
