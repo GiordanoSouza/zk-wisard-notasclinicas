@@ -35,4 +35,4 @@ python scripts/zk/build_witness.py \
        --bits-file data/processed/bits.parquet --index 0
 
 # Compila - setup - prova - verificação
-bash scripts/zk/verify_proof.sh
+bash scripts/zk/verify_proof.ps1
