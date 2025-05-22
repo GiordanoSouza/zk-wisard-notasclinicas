@@ -1,14 +1,4 @@
-# dados e artefatos grandes
-data/*
-!data/README.md
-proofs/*
-*.zkey
-*.ptau
-*.wtns
-*.r1cs
-*.sym
-*.wasm
-*.json
+
 
 # Python
 __pycache__/
